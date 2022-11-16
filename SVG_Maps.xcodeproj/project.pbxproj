@@ -13,6 +13,7 @@
 		8C546A5A29222116008F9032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C546A5829222116008F9032 /* Main.storyboard */; };
 		8C546A5C29222118008F9032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C546A5B29222118008F9032 /* Assets.xcassets */; };
 		8C546A5F29222118008F9032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C546A5D29222118008F9032 /* LaunchScreen.storyboard */; };
+		8C546A792924DFCA008F9032 /* RegX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C546A782924DFCA008F9032 /* RegX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		8C546A5B29222118008F9032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C546A5E29222118008F9032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C546A6029222118008F9032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C546A762924DFCA008F9032 /* SVG_Maps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVG_Maps-Bridging-Header.h"; sourceTree = "<group>"; };
+		8C546A772924DFCA008F9032 /* RegX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegX.h; sourceTree = "<group>"; };
+		8C546A782924DFCA008F9032 /* RegX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,9 @@
 				8C546A5B29222118008F9032 /* Assets.xcassets */,
 				8C546A5D29222118008F9032 /* LaunchScreen.storyboard */,
 				8C546A6029222118008F9032 /* Info.plist */,
+				8C546A772924DFCA008F9032 /* RegX.h */,
+				8C546A782924DFCA008F9032 /* RegX.m */,
+				8C546A762924DFCA008F9032 /* SVG_Maps-Bridging-Header.h */,
 			);
 			path = SVG_Maps;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					8C546A4E29222116008F9032 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -141,6 +149,7 @@
 				8C546A5729222116008F9032 /* ViewController.swift in Sources */,
 				8C546A5329222116008F9032 /* AppDelegate.swift in Sources */,
 				8C546A5529222116008F9032 /* SceneDelegate.swift in Sources */,
+				8C546A792924DFCA008F9032 /* RegX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -302,6 +312,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GreenFigure.SVG-Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SVG_Maps/SVG_Maps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +324,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -329,6 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "GreenFigure.SVG-Maps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SVG_Maps/SVG_Maps-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
